@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติย่อ - ชื่อของคุณ</title>
+    
+    <style>
+        /* ตั้งค่าพื้นฐาน */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px auto;
+            max-width: 900px; /* กำหนดความกว้างสูงสุดของหน้าเว็บ */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* เพิ่มเงาให้ดูเหมือนเอกสาร */
+        }
+
+        /* ส่วนหัว */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #333;
+        }
+        header h1 {
+            margin: 0;
+            color: #333;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0 0;
+            color: #555;
+        }
+
+        /* ส่วนเนื้อหา */
+        section {
+            margin-bottom: 25px;
+        }
+        section h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            color: #006699; /* สีฟ้าเข้มสำหรับหัวข้อ */
+            font-size: 1.5em;
+        }
+
+        /* รายการประสบการณ์/การศึกษา */
+        .item-block {
+            margin-bottom: 20px;
+            padding-left: 15px;
+        }
+        .item-block h3 {
+            margin: 0 0 5px;
+            color: #333;
+            font-size: 1.2em;
+        }
+        .item-block .details {
+            display: flex;
+            justify-content: space-between;
+            font-style: italic;
+            color: #777;
+            margin-bottom: 5px;
+        }
+        .item-block ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+        
+        /* ส่วนทักษะ */
+        .skills-list {
+            list-style: none; /* ลบจุดนำหน้า */
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap; /* ให้ขึ้นบรรทัดใหม่ได้เมื่อความกว้างไม่พอ */
+        }
+        .skills-list li {
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: 0 10px 10px 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ชื่อ-นามสกุล ของคุณ</h1>
+        <p>ตำแหน่งที่สนใจ (เช่น: Web Developer | Project Coordinator)</p>
+        <p>
+            <a href="mailto:your.email@example.com">your.email@example.com</a> |
+            โทร: 08x-xxx-xxxx |
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        </p>
+    </header>
+
+    <section id="summary">
+        <h2>สรุปโดยย่อ</h2>
+        <p>
+            ใส่คำอธิบายสั้นๆ ที่เน้นจุดเด่นและความสำเร็จของคุณ (ประมาณ 2-3 บรรทัด) เช่น เป็นผู้เชี่ยวชาญด้าน... ที่มีประสบการณ์ 5 ปี ในการ... และประสบความสำเร็จในการ...
+        </p>
+    </section>
+    
+    <section id="skills">
+        <h2>ทักษะ</h2>
+        <ul class="skills-list">
+            <li>HTML5/CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React/Vue/Angular</li>
+            <li>SQL/MongoDB</li>
+            <li>การสื่อสาร</li>
+            <li>การทำงานเป็นทีม</li>
+            <li>การแก้ปัญหา</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>ประสบการณ์ทำงาน</h2>
+        
+        <div class="item-block">
+            <h3>ตำแหน่งงาน | ชื่อบริษัท</h3>
+            <div class="details">
+                <span>กรุงเทพฯ, ประเทศไทย</span>
+                <span>ปี 2020 – ปัจจุบัน</span>
+            </div>
+            <ul>
+                <li>รับผิดชอบในการพัฒนาและดูแลรักษาระบบ (ระบุความรับผิดชอบหลัก)</li>
+                <li>ความสำเร็จ: นำเทคโนโลยีใหม่มาใช้และลดเวลาโหลดหน้าเว็บได้ 20%</li>
+                <li>ทำงานร่วมกับทีม 5 คนเพื่อส่งมอบโครงการตามกำหนดเวลา</li>
+            </ul>
+        </div>
+        
+        <div class="item-block">
+            <h3>ตำแหน่งงานก่อนหน้า | บริษัทที่ 2</h3>
+            <div class="details">
+                <span>จังหวัด, ประเทศไทย</span>
+                <span>ปี 2018 – 2020</span>
+            </div>
+            <ul>
+                <li>หน้าที่หลักคือ...</li>
+                <li>มีส่วนร่วมในการ...</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>การศึกษา</h2>
+        
+        <div class="item-block">
+            <h3>ปริญญา/วุฒิการศึกษา</h3>
+            <div class="details">
+                <span>ชื่อมหาวิทยาลัย/สถาบัน</span>
+                <span>ปีที่สำเร็จการศึกษา</span>
+            </div>
+            <p style="margin-top: 5px; font-size: 0.9em;">เกรดเฉลี่ย: X.XX (ถ้าต้องการใส่)</p>
+        </div>
+    </section>
+
+</body>
+</html>
