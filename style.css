@@ -1,0 +1,61 @@
+/* style.css */
+
+/* Basic Reset for Clean Look */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px; /* Keep it centered and easy to read */
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Headings and Structure */
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 0.1em;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+}
+
+/* Contact Info */
+.contact-info p {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contact-info a {
+    color: #007BFF; /* A subtle blue for links */
+    text-decoration: none;
+}
+
+/* Experience Section */
+.job {
+    margin-bottom: 20px;
+}
+
+.job .dates {
+    font-style: italic;
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/* Bullet Points */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
